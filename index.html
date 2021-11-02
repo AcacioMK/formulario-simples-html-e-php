@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Formulário simples</title>
+    </head>
+    <body>
+        <div id='interface'>
+            <form method='post' id='formulario' action='form.php?envio=true'>
+                <p>Nome: <input type='text' name='nome' id='cNome' required> /
+                Idade: <input type='number' name='idade' id='cIdade' min=0 max=99></p>
+                <p>Sexo: <select name='sexo'>
+                    <option value='0'>Masculino</option>
+                    <option value='1'>Feminino</option>
+                </select></p>
+                <p><input type='submit' value='Enviar' id='cBt'></p>
+            </form>
+        </div>
+    </body>
+</html>
